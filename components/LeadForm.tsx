@@ -37,7 +37,7 @@ export const LeadForm: React.FC = () => {
     setIsSubmitting(true);
     setError(null);
 
-    const WEBHOOK_URL = 'https://webhook.infra-remakingautomacoes.cloud/webhook/sc'; 
+    const WEBHOOK_URL = '/api/webhook';
 
     try {
       const response = await fetch(WEBHOOK_URL, {
