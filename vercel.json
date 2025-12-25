@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/webhook",
+      "destination": "https://webhook.infra-remakingautomacoes.cloud/webhook/sc"
+    }
+  ]
+}
